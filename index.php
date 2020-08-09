@@ -12,8 +12,6 @@
 	<!--Estilos Animate.css-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
 	<title>Prueba</title>
 </head>
 <body>
@@ -55,5 +53,4 @@
 </html>
 <!--Scripts-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="scripts/animaciones.js"></script>
