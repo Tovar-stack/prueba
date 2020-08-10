@@ -85,16 +85,19 @@ nav{
 			margin-left: 10px;
 		}
 		/*Menu de estados*/
-			.browser-default {
-				border: none !important;
-				height: 80%;
-				width: 100%;
-				background-color: transparent;
-				font-family: 'Roboto Condensed', sans-serif;
-				cursor: pointer;
-				appearance:none;
-				margin-left: 5px;
-				}
+		.browser-default {
+			border: none !important;
+			height: 80%;
+			width: 100%;
+			background-color: transparent;
+			font-family: 'Roboto Condensed', sans-serif;
+			cursor: pointer;
+			appearance:none;
+			margin-left: 5px;
+			}
+			.browser-default option{
+				
+			}
 	.botones{
 		margin-left: 10px;
 		}
