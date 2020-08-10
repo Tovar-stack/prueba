@@ -56,7 +56,7 @@ nav{
 
 .controles{
 	display: inline-flex;
-	width: 70%;
+	width: 80%;
 	font-family: 'Roboto Condensed', sans-serif;
 	margin-left: 5%;
 	margin-top: 5%;
@@ -65,7 +65,7 @@ nav{
 		width: 30%;
 		background-color: white;
 		border: none;
-		padding: 8px 0;
+		padding: 8px 0 !important;
 		margin: 0 3px;
 
 		animation: fadeInUp;
@@ -84,12 +84,23 @@ nav{
 			margin: 0;
 			margin-left: 10px;
 		}
-
+		/*Menu de estados*/
+			.browser-default {
+				border: none !important;
+				height: 80%;
+				width: 100%;
+				background-color: transparent;
+				font-family: 'Roboto Condensed', sans-serif;
+				cursor: pointer;
+				appearance:none;
+				margin-left: 5px;
+				}
 	.botones{
 		margin-left: 10px;
 		}
 		.btn{
 		height: 100% !important;
+		min-width: 70px;
 
 		animation: bounceIn;
 		animation-duration: 3s;

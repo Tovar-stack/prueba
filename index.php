@@ -27,9 +27,15 @@
 	<!--Controles-->
 	<div class="controles">
 		<!--Cuadros-->
-		<div class="cuadro waves-effect">
+		<div class="cuadro waves-effect ">
 			<p class="cuadro-h">Ubicacion Actual</p>
-			<p class="cuadro-t">Zacatecas City</p>
+			    <select class="browser-default">
+			      <option value="" disable selected>Durango</option>
+			      <option value=""> Jalisco</option>
+			      <option value=""> Nuevo Leon</option>
+			      <option value=""> Durango</option>
+			      <option value=""> Zacatecas</option>
+			    </select>
 		</div>
 
 		<div class="cuadro waves-effect">
